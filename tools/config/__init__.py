@@ -42,7 +42,7 @@ defaults = {
     "suspend_action": "freeze",
     "mount_overlays": "True",
     "auto_adb": "True",
-    "overlays_readonly": "True",
+    "overlays_readonly": "False",
 }
 defaults["images_path"] = defaults["work"] + "/images"
 defaults["rootfs"] = defaults["work"] + "/rootfs"
